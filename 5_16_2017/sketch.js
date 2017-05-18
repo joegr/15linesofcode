@@ -14,5 +14,5 @@ function rock() {
   this.extension = random(0, 150);
     this.showStalagStalac = function() {
       fill(this.extension,this.extension,this.extension);
-      triangle((this.tip - (this.base/2)), 600, this.tip, (600-this.extension), (this.tip + (this.base/2)), 600);
-      triangle((this.tip - (this.base/2)), 0, this.tip, this.extension, (this.tip + (this.base/2)), 0);};}
+      triangle((this.tip - (this.base/2)), 600, radians(this.tip), (600-this.extension), (this.tip + (this.base/2)), 600);
+      triangle((this.tip - (this.base/2)), 0, radians(this.tip), this.extension, (this.tip + (this.base/2)), 0);};}
