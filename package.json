@@ -1,0 +1,10 @@
+{
+  "name": "15linesofcode",
+  "private": true,
+  "scripts": {
+    "build": "node build.js"
+  },
+  "dependencies": {
+    "p5": "0.5.9"
+  }
+}
